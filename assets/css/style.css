@@ -1,0 +1,470 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #8D99AE;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+main {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+}
+
+/*---------------------------header*/
+
+.col-md-12 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.bg-color-name-title {
+	background-color: ;
+	height: 100%;
+	text-align: center;
+
+}
+
+h1 {
+	font-size: 75px;
+	font-family: 'Lakki Reddy', cursive;
+	color: white;
+	padding-top: 25px;
+	margin: auto;
+}
+
+h2,
+h4,
+h5 {
+	margin-top: 28px;
+	margin-left: 50px;
+	color: white;
+	font-weight: 500;
+	font-family: 'Playfair Display', serif;
+}
+
+/*-------------------------main image*/
+
+.logo {
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 360px;
+	min-width: 100%;
+
+}
+
+.logo-video {
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 360px;
+	min-width: 100%;
+
+}
+
+/*-------------------------main nav*/
+
+.menucontainer {
+	padding: 0;
+	margin: 0;
+}
+
+.nav {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+.nav li {
+	display: inline-block;
+
+
+	margin: 0;
+
+}
+
+.home {
+	background-color: #d9d9e2;
+}
+
+.about {
+	background-color: #39d5dd;
+}
+
+.contact {
+	background-color: #d9d9e2;
+}
+
+.video {
+	background-color: #39d5dd;
+}
+
+.hvr-sweep-to-bottom:before {
+	background: rgba(0, 0, 0, 0.2);
+	height: 100px;
+
+}
+
+.menuitem {
+	height: 100px;
+	text-align: center;
+	padding: 0;
+}
+
+.menuitem a {
+	width: 100%;
+	text-decoration: none;
+	color: #ffffff;
+	height: 80px;
+}
+
+.menuitem a i {
+	padding-top: 20px;
+	display: block;
+	color: #fafafa;
+	font-size: 26px;
+}
+
+.menuitem span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+/*------------------------------------center blurb*/
+
+.ourfans {
+	margin-top: 80px;
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+.fans {
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid-two {
+	padding: 0;
+	margin: 0;
+}
+
+.six {
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.seven {
+	padding-top: 45px;
+	padding-bottom: 15px;
+}
+
+.uppercase {
+
+	margin: 0;
+	color: white;
+	font-weight: 500;
+	font-family: 'Playfair Display', serif;
+}
+
+.wine {
+	margin-left: 20px;
+}
+
+/*--------------------------footer and social title*/
+
+footer {
+	background-color: #d9d9e2;
+	height: 100px;
+
+}
+
+.social {
+	margin-top: 20px;
+	font-size: 30px;
+	color: white;
+	font-weight: 500;
+	font-family: 'Playfair Display', serif;
+}
+
+/*------------------------------media queries*/
+
+@media screen and (min-width:320px) and (max-width:1070px) {
+	body {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	main {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	h1 {
+		font-size: 65px;
+	}
+
+	.nav li {
+		flex-direction: column;
+		width: 100%;
+		float: left;
+		clear: both;
+		height: 100%;
+		margin: 0px;
+	}
+
+	.container-fluid {
+		padding: 0;
+	}
+	.seven,
+	.six {
+
+		width: 100%;
+	}
+	.wine {
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.mobile {
+		margin: auto;
+	}
+	.name {
+		margin: auto;
+		width: 100%;
+	}
+	.social-links {
+		margin: 0;
+	}
+
+	.info {
+		margin: auto;
+		height: 100%;
+	}
+	.img-text-do {
+		margin-left: 0;
+	}
+
+}
+
+/*------------------------------use this for background image for contact*/
+
+.info {
+	height: 550px;
+	
+	background: linear-gradient(rgba(141, 153, 174, 0.8),
+	rgba(141, 153, 174, 0.5)),
+	url(/assets/images/images/monkees.jpg) no-repeat fixed;
+	background-size: cover;
+
+}
+
+
+
+/*------------------------------------style for contact form and button*/
+
+.touch {
+	font-family: 'Lakki Reddy', cursive;
+	font-size: 30px;
+	font-weight: 300;
+	color: #fafafa;
+	text-align: center;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.form-control {
+	background-color: #d9d9e2;
+}
+
+.form-control:-moz-placeholder {
+	color: white;
+}
+
+.btn {
+	background-color: #39d5dd;
+	color: white;
+}
+
+.contact-img {
+	margin-top: 0px;
+}
+
+/*-----------------------------------style for about*/
+
+.peter img {
+	border-radius: 50%;
+}
+
+.micky img {
+	border-radius: 50%;
+}
+
+.micheal img {
+	border-radius: 50%;
+}
+
+.dave img {
+	border-radius: 50%;
+}
+
+.we-do,
+.img-text {
+
+	font-family: 'Lakki Reddy', cursive;
+	font-size: 50px;
+	font-weight: 300;
+	color: #fafafa;
+	text-align: center;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.micky,
+.micheal {
+	margin-top: 30px;
+	margin-left: 50px;
+
+}
+
+.peter,
+.dave {
+	margin-top: 30px;
+}
+
+.img-text-do {
+	font-family: 'Lakki Reddy', cursive;
+	font-size: 70px;
+	font-weight: 300;
+	color: #fafafa;
+
+	width: 50%;
+	margin-top: 30px;
+	margin-left: 140px;
+
+}
+
+@media screen and (min-width:320px) and (max-width:1070px) {
+	.img-text-do {
+		margin-left: 50px;
+
+	}
+	.micky,
+	.micheal {
+
+		margin-left: 0px;
+
+	}
+}
+
+/*---------------------------------------------styles for video page*/
+
+.vid{
+	margin-top:100px;
+	
+}
+.video-pos{
+	margin-left:60px;
+}
+.videos{
+	height:650px;
+	width:98%;
+	/*background:#8D99AE;*/
+	background: linear-gradient(rgba(141, 153, 174, 0.8),
+	rgba(141, 153, 174, 0.5)),
+	url(/assets/images/images/album2.jpg) no-repeat fixed ;
+	background-size:100% 100%;
+    
+}
+
+
+.vid-head{
+	font-family: 'Lakki Reddy', cursive;
+	font-size: 40px;
+	font-weight: 300;
+	color: #fafafa;
+
+	
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.audio-head{
+	font-family: 'Lakki Reddy', cursive;
+	font-size: 40px;
+	font-weight: 300;
+	color: #fafafa;
+
+	
+	margin-top: 70px;
+	margin-left: 70px;
+}
+
+.title{
+	font-family: 'Lakki Reddy', cursive;
+	font-size: 25px;
+	font-weight: 300;
+	color: #fafafa;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:auto;
+}
+.controls{
+	margin-left: 100px; 
+}
+
+/*-------------------------------------------media querys for video page*/
+@media screen and (min-width:320px) and (max-width:1070px){
+	
+	.vid{
+		flex-direction: column;
+		width: 100%;
+		float: left;
+		clear: both;
+		height: 550px;
+		margin: 0 50 0 0px;
+		padding:0px;
+	}
+	
+	.audio{
+		flex-direction: column;
+		width: 100%;
+		float: left;
+		clear: both;
+		height: 100%;
+		margin: 50 0 0 0px;
+		padding:0px;
+	}
+.controls{
+	margin:0;
+}
+.video-pos{
+	margin-left:0px;
+}
+video{
+	width:100%;
+	height:100%;
+}
+}
+
+
+
