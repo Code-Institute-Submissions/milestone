@@ -27,7 +27,7 @@ main {
 }
 
 .bg-color-name-title {
-	background-color: ;
+
 	height: 100%;
 	text-align: center;
 
@@ -41,15 +41,7 @@ h1 {
 	margin: auto;
 }
 
-h2,
-h4,
-h5 {
-	margin-top: 28px;
-	margin-left: 50px;
-	color: white;
-	font-weight: 500;
-	font-family: 'Playfair Display', serif;
-}
+
 
 /*-------------------------main image*/
 
@@ -146,18 +138,16 @@ h5 {
 	letter-spacing: 2px;
 }
 
-/*------------------------------------center blurb*/
+/*------------------------------------home page center blurb home page*/
 
 .ourfans {
 	margin-top: 80px;
-	padding: 0;
-	margin-right: 0;
-	margin-left: 0;
+	margin-left: 60px;
 }
 
 
 .fans {
-	margin: 0;
+	margin-right:60px;
 	padding: 0;
 }
 
@@ -170,31 +160,47 @@ h5 {
 
 	padding-top: 15px;
 	padding-bottom: 15px;
+	margin-left:35px;
+	
+}
+.relive{
+	margin-left:15px;
 }
 
 .seven {
-	padding-top: 45px;
-	padding-bottom: 15px;
+	
+	padding-top: 110px;
+	padding-bottom:40px;
 }
+.eight{
+		padding-top: 110px;
+	   padding-bottom: 45px;
+}
+
 
 .uppercase {
 
 	margin: 0;
 	color: white;
 	font-weight: 500;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Lakki Reddy', cursive;
 }
 
-.wine {
-	margin-left: 20px;
+.age {
+	margin-left: 110px;
 }
+
 
 /*--------------------------footer and social title*/
 
+.container-fluid-two{
+	margin-left:12px;
+	margin-right:12px;
+}
 footer {
 	background-color: #d9d9e2;
 	height: 100px;
-
+	
 }
 
 .social {
@@ -203,11 +209,13 @@ footer {
 	color: white;
 	font-weight: 500;
 	font-family: 'Playfair Display', serif;
+	
 }
 
 /*------------------------------media queries*/
 
-@media screen and (min-width:320px) and (max-width:1070px) {
+
+@media(max-width:767px){
 	body {
 		width: 100%;
 		margin: 0px;
@@ -235,13 +243,34 @@ footer {
 	.container-fluid {
 		padding: 0;
 	}
+	.ourfans,
+	.fans,
+	.relive-one,
+	.age-one{
+		margin:0px;
+		width:100%;
+	}
+	.relive-one{
+		padding-top:35px;
+	}
+	.uppercase{
+		margin-top:15px;
+		padding-left: 15px;
+		
+	}
+	
+	.age{
+		margin:0;
+	}
+	.eight,
 	.seven,
 	.six {
-
+		padding:0px;
+		margin:0px;
 		width: 100%;
 	}
 	.wine {
-		margin-top: 50px;
+		margin-top:0px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -254,23 +283,91 @@ footer {
 	}
 	.social-links {
 		margin: 0;
+		
+	}
+	.social-links-home {
+		margin: 0;
+		padding-left:35px;
 	}
 
 	.info {
 		margin: auto;
 		height: 100%;
+		width:100%;
 	}
 	.img-text-do {
 		margin-left: 0;
 	}
+	
+	.container-fluid-two{
+	margin:0px;
+	
+}
 
 }
+/*---------------------------------home and video page media querys for tablet*/
+@media (min-width:767px) and (max-width:1266px){
+	main{
+		width:100%;
+		margin:0;
+	}
+	.controls{
+		padding-left:40px;
+		
+	}
+	.video-pos{
+		padding-right:40px;
+	}
+
+	.dave,
+	.peter,
+	.micky,
+	.micheal{
+		padding-right:0px;
+		padding-left:35px;
+		
+	}
+	.fans{
+		margin-left:50px;
+	}
+	.relive-one:{
+		margin-left:50px;
+	}
+	.age{
+		margin-top:70px;
+		margin-left:130px;
+	}
+	.six{
+		width:100%;
+		margin-left:15px;
+	}
+	.seven{
+		padding-top:100px;
+		padding-bottom:20px;
+		width:100%;
+	}
+	.sixties{
+		padding-top:50px;
+	}
+	.with {
+		padding:0px;
+	}
+	.eight{
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	.better{
+		padding-bottom:15px;
+		padding-top:10px;
+	}
+}
+
 
 /*------------------------------use this for background image for contact*/
 
 .info {
 	height: 550px;
-	
+
 	background: linear-gradient(rgba(141, 153, 174, 0.8),
 	rgba(141, 153, 174, 0.5)),
 	url(/assets/images/images/monkees.jpg) no-repeat fixed;
@@ -362,7 +459,7 @@ footer {
 	margin-left: 140px;
 
 }
-
+/*-----------------------------------media query for about page*/
 @media screen and (min-width:320px) and (max-width:1070px) {
 	.img-text-do {
 		margin-left: 50px;
@@ -378,93 +475,94 @@ footer {
 
 /*---------------------------------------------styles for video page*/
 
-.vid{
-	margin-top:100px;
-	
+.vid {
+	margin-top: 100px;
+
 }
-.video-pos{
-	margin-left:60px;
+
+.video-pos {
+	margin-left: 60px;
 }
-.videos{
-	height:650px;
-	width:98%;
-	/*background:#8D99AE;*/
+
+.videos {
+	width: 98%;
 	background: linear-gradient(rgba(141, 153, 174, 0.8),
 	rgba(141, 153, 174, 0.5)),
-	url(/assets/images/images/album2.jpg) no-repeat fixed ;
-	background-size:100% 100%;
-    
+	url(/assets/images/images/album2.jpg) no-repeat fixed;
+	background-size: 100% 100%;
+
 }
 
 
-.vid-head{
+.vid-head {
 	font-family: 'Lakki Reddy', cursive;
 	font-size: 40px;
 	font-weight: 300;
 	color: #fafafa;
 
-	
+
 	margin-top: 30px;
 	margin-left: 20px;
 }
 
-.audio-head{
+.audio-head {
 	font-family: 'Lakki Reddy', cursive;
 	font-size: 40px;
 	font-weight: 300;
 	color: #fafafa;
 
-	
+
 	margin-top: 70px;
 	margin-left: 70px;
 }
 
-.title{
+.title {
 	font-family: 'Lakki Reddy', cursive;
 	font-size: 25px;
 	font-weight: 300;
 	color: #fafafa;
-	padding-top:10px;
-	padding-bottom:10px;
-	margin:auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
 }
-.controls{
-	margin-left: 100px; 
+
+.controls {
+	margin-left: 100px;
 }
 
 /*-------------------------------------------media querys for video page*/
-@media screen and (min-width:320px) and (max-width:1070px){
-	
-	.vid{
+
+@media screen and (min-width:320px) and (max-width:1070px) {
+
+	.vid {
 		flex-direction: column;
 		width: 100%;
 		float: left;
 		clear: both;
-		height: 550px;
 		margin: 0 50 0 0px;
-		padding:0px;
+		padding: 0px;
 	}
-	
-	.audio{
+
+	.audio {
 		flex-direction: column;
 		width: 100%;
 		float: left;
 		clear: both;
 		height: 100%;
 		margin: 50 0 0 0px;
-		padding:0px;
+		padding: 0px;
 	}
-.controls{
-	margin:0;
+	.controls {
+		margin: 0;
+	}
+	.video-pos {
+		margin-left: 0px;
+	}
+	video {
+		width: 100%;
+		height: 100%;
+	}
+	.social{
+		margin:0px;
+	}
 }
-.video-pos{
-	margin-left:0px;
-}
-video{
-	width:100%;
-	height:100%;
-}
-}
-
-
-
